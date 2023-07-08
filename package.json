@@ -1,0 +1,24 @@
+{
+  "name": "random-name-kr",
+  "version": "1.0.0",
+  "description": "generate random korean name",
+  "author": "msdio <dev.msdio@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msdio/random-name.git"
+  },
+  "keywords": [
+    "random name",
+    "korean name",
+    "name generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/msdio/random-name/issues"
+  },
+  "homepage": "https://github.com/msdio/random-name#readme"
+}
