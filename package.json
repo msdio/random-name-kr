@@ -13,6 +13,7 @@
     }
   },
   "scripts": {
+    "prepack": "yarn build",
     "start": "node ./src/index.js",
     "build": "yarn tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
