@@ -8,14 +8,13 @@
   "license": "MIT",
   "exports": {
     ".": {
-      "import": "./index.js",
-      "require": "./index.cjs",
       "default": "./index.js"
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/index.js"
+    "start": "node ./src/index.js",
+    "build": "npm build:tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -29,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/msdio/random-name/issues"
   },
-  "homepage": "https://github.com/msdio/random-name#readme"
+  "homepage": "https://github.com/msdio/random-name#readme",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
 }
