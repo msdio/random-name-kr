@@ -1,19 +1,20 @@
 {
   "name": "random-name-kr",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "generate random korean name",
   "author": "msdio <dev.msdio@gmail.com>",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "exports": {
     ".": {
-      "default": "./index.js"
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "scripts": {
     "start": "node ./src/index.js",
-    "build": "npm build:tsc",
+    "build": "yarn tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,7 +30,7 @@
     "url": "https://github.com/msdio/random-name/issues"
   },
   "homepage": "https://github.com/msdio/random-name#readme",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^5.1.6"
   }
 }
