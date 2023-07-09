@@ -1,25 +1,33 @@
 {
-    "name": "random-name-kr",
-    "version": "0.0.1",
-    "description": "generate random korean name",
-    "author": "msdio <dev.msdio@gmail.com>",
-    "type": "module",
-    "main": "index.js",
-    "license": "MIT",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/msdio/random-name.git"
-    },
-    "keywords": [
-        "random name",
-        "korean name",
-        "name generator"
-    ],
-    "bugs": {
-        "url": "https://github.com/msdio/random-name/issues"
-    },
-    "homepage": "https://github.com/msdio/random-name#readme"
+  "name": "random-name-kr",
+  "version": "0.0.1",
+  "description": "generate random korean name",
+  "author": "msdio <dev.msdio@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "default": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msdio/random-name.git"
+  },
+  "keywords": [
+    "random name",
+    "korean name",
+    "name generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/msdio/random-name/issues"
+  },
+  "homepage": "https://github.com/msdio/random-name#readme"
 }
