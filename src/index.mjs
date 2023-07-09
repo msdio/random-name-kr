@@ -1,5 +1,7 @@
-import { ANIMAL_NAMES } from "./names.mjs";
-import { PREFIX } from "./prefix.mjs";
+import { pickAnimal, pickPrefix } from "./utils/picker.mjs";
 
-console.log("total", ANIMAL_NAMES.length, PREFIX.length);
-console.log("tot", ANIMAL_NAMES.length * PREFIX.length);
+export const getName = () => {
+  return pickPrefix() + " " + pickAnimal();
+};
+
+console.log(getName());
