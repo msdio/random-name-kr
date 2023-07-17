@@ -4,18 +4,28 @@
 
 ## 사용법
 
-### 1. import
+### install
+
+```shell
+npm install random-name-kr
+```
+
+```shell
+yarn add random-name-kr
+```
+
+```shell
+pnpm install random-name-kr
+```
+
+### import
 
 ```typescirpt
 import { getName } from 'random-name-kr'
 ```
 
-### 2. 이름 생성하기
+### 이름 생성하기
 
 ```
 const name = getName();
 ```
-
-## 로컬에서 실행하기
-
-`yarn install` 을 통해 설치합니다.
